@@ -54,6 +54,12 @@ Control Stroke is local-first:
 
 Future Pro unlocks will use Patreon-backed entitlement checks. The desktop app should receive only Control Stroke license data, not raw Patreon OAuth tokens.
 
+See the full [Privacy Policy](PRIVACY.md).
+
+## Terms
+
+See the [Terms of Service](TERMS.md).
+
 ## Patreon
 
 Patreon will be the only paid channel for Pro access and project updates. The Patreon page link will be added when the entitlement flow and launch copy are ready.
