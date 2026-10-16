@@ -1,22 +1,28 @@
 # Control Stroke
 
-![Control Stroke icon](assets/control-stroke-icon.png)
+**An AI improviser for The Handy that runs entirely on your PC.**
 
-Control Stroke is a local-first Windows desktop controller for compatible devices through Intiface Central.
+![AI Improviser: live motion steered by sliders](assets/ai-improviser.png)
 
-It is designed for adult users who want a private local control workflow without cloud processing, telemetry, or account creation for the free app.
+Control Stroke drives your device live: a small local model improvises motion while you steer it with sliders — tempo, intensity, zone, style, improvisation, drift. It learns what you like from 👍/👎 and from how you adjust it, and that taste profile never leaves your computer.
 
-> 18+ only. Use only with compatible devices you own and control. Keep device firmware, Intiface Central, and operating system permissions up to date.
+It is also a local-first controller for compatible devices through Intiface Central: funscript playback, manual patterns and Screen Sync.
+
+18+ only. Use only with compatible devices you own and control. Keep device firmware, Intiface Central, and operating system permissions up to date.
+
+## What makes it different
+
+- **Live AI improviser.** No script needed: the model generates endless, non-repeating motion and reacts to slider changes within about a second.
+- **Learns your taste, locally.** Likes, dislikes, slider corrections and session length shape what it plays next. Reset or export your profile any time.
+- **Scenarios.** Ready-made arcs — tease, waves, build to peak, marathon — that you can take over at any moment.
+- **Turn a session into a script.** Record what the improviser played and save it as a `.funscript`.
+- **Private by design.** No telemetry, no cloud processing, no account for free use.
 
 ## Download
 
 The first public release will be published in this repository's [Releases](https://github.com/ControlStroke/releases/releases).
 
 Current status: `v0.1.0-rc1` is being prepared.
-
-## Screenshot
-
-A neutral application screenshot will be added with the first release after manual smoke testing on Windows with Intiface Central and a compatible device.
 
 ## Requirements
 
@@ -37,6 +43,7 @@ A neutral application screenshot will be added with the first release after manu
 ## Core Features
 
 - Local Intiface connection.
+- AI improviser with live sliders, scenarios, recording and on-device taste learning.
 - Funscript playback from local files.
 - Optional local video reference for script alignment.
 - Manual control patterns.
@@ -50,6 +57,7 @@ Control Stroke is local-first:
 - no telemetry;
 - no cloud upload for scripts;
 - no cloud upload for screen capture;
+- the improviser model and your taste profile stay on your computer;
 - no account required for free local use.
 
 Future Pro unlocks will use Patreon-backed entitlement checks. The desktop app should receive only Control Stroke license data, not raw Patreon OAuth tokens.
